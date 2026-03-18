@@ -1,11 +1,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-COPY *.csproj ./
-RUN dotnet restore
+COPY McpRegistryService.csproj ./
+RUN dotnet restore McpRegistryService.csproj
 
 COPY . ./
-RUN dotnet publish -c Release -o /app/publish
+RUN dotnet publish McpRegistryService.csproj -c Release -o /app/publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
