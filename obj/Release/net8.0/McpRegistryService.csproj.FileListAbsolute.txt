@@ -53,3 +53,4 @@ C:\FabianWorkSpaceGitDEV\mcp-registry-service\obj\Release\net8.0\refint\McpRegis
 C:\FabianWorkSpaceGitDEV\mcp-registry-service\obj\Release\net8.0\McpRegistryService.pdb
 C:\FabianWorkSpaceGitDEV\mcp-registry-service\obj\Release\net8.0\McpRegistryService.genruntimeconfig.cache
 C:\FabianWorkSpaceGitDEV\mcp-registry-service\obj\Release\net8.0\ref\McpRegistryService.dll
+C:\FabianWorkSpaceGitDEV\mcp-registry-service\obj\Release\net8.0\swae.build.ex.cache

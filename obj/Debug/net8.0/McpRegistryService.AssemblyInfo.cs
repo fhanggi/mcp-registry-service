@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("McpRegistryService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0beabb5e973bf123ce88559a01e1c45ff199500b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e43d639c5420cf166d20e98df8f3cb096f36742")]
 [assembly: System.Reflection.AssemblyProductAttribute("McpRegistryService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("McpRegistryService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
