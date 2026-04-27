@@ -2,7 +2,7 @@
   {
     "server": {
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-      "name": "io.github.fhanggi/koppla-active-directory",
+      "name": "kopplaActiveDirectory",
       "title": "Koppla Active Directory",
       "description": "MCP server for querying Active Directory.",
       "version": "0.0.1"
@@ -19,7 +19,7 @@
   {
     "server": {
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-      "name": "io.github.fhanggi/kendo-react-mcp-server",
+      "name": "kendo-react-assistant",
       "title": "Kendo React MCP Server",
       "description": "MCP server for Kendo UI for React tools.",
       "version": "0.0.1"
