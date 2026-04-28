@@ -1,28 +1,29 @@
-{
-  "servers": [
-    {
-      "server": {
-        "name": "koppla-active-directory",
-        "description": "MCP server for querying Active Directory.",
-        "version": "0.0.1"
-      }
-    },
-    {
-      "server": {
-        "name": "kendo-react-assistant",
-        "description": "MCP server for Kendo UI for React tools.",
-        "version": "0.0.1"
-      }
-    },
-    {
-      "server": {
-        "name": "io.github.upstash/context7",
-        "description": "MCP server for Context7 documentation lookup.",
-        "version": "1.0.31"
-      }
+[
+  {
+    "server": {
+      "id": "koppla-active-directory",
+      "name": "koppla-active-directory",
+      "title": "Koppla Active Directory",
+      "description": "MCP server for querying Active Directory.",
+      "version": "0.0.1"
     }
-  ],
-  "metadata": {
-    "count": 3
+  },
+  {
+    "server": {
+      "id": "kendo-react-assistant",
+      "name": "kendo-react-assistant",
+      "title": "Kendo React MCP Server",
+      "description": "MCP server for Kendo UI for React tools.",
+      "version": "1.7.0"
+    }
+  },
+  {
+    "server": {
+      "id": "io.github.upstash/context7",
+      "name": "io.github.upstash/context7",
+      "title": "Context7",
+      "description": "MCP server for Context7 documentation lookup.",
+      "version": "1.0.31"
+    }
   }
-}
+]

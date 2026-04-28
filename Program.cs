@@ -226,8 +226,11 @@ public sealed class ServerResponse
 
 public sealed class ServerJson
 {
+    [JsonPropertyName("id")]
+    public string? Id { get; init; }
+
     [JsonPropertyName("$schema")]
-    public required string Schema { get; init; }
+    public string? Schema { get; init; }
 
     [JsonPropertyName("name")]
     public required string Name { get; init; }
