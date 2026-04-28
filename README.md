@@ -21,6 +21,10 @@ This service enables CORS for all origins/methods/headers so IDE clients can fet
 
 Edit `Data/servers.json` to add or remove approved servers.
 
+Server names in VS Code MCP configuration must exactly match the registry `server.name` values. Registry names must use reverse-DNS format with one slash, for example `io.github.fhanggi/koppla-active-directory`.
+
+After changing `Data/servers.json`, restart the service so the file is loaded again.
+
 ## Local run
 
 ```bash

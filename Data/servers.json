@@ -2,7 +2,7 @@
   {
     "server": {
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-      "name": "kopplaActiveDirectory",
+      "name": "io.github.fhanggi/koppla-active-directory",
       "title": "Koppla Active Directory",
       "description": "MCP server for querying Active Directory.",
       "version": "0.0.1"
@@ -19,7 +19,7 @@
   {
     "server": {
       "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-      "name": "kendo-react-assistant",
+      "name": "io.github.fhanggi/kendo-react-assistant",
       "title": "Kendo React MCP Server",
       "description": "MCP server for Kendo UI for React tools.",
       "version": "0.0.1"
@@ -53,8 +53,8 @@
           "environmentVariables": [
             {
               "name": "CONTEXT7_API_KEY",
-              "description": "API key for authentication.",
-              "isRequired": true,
+              "description": "Optional API key for authentication.",
+              "isRequired": false,
               "isSecret": true
             }
           ]
