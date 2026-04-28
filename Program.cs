@@ -265,14 +265,38 @@ public sealed class Package
     [JsonPropertyName("registryType")]
     public required string RegistryType { get; init; }
 
+    [JsonPropertyName("registryBaseUrl")]
+    public string? RegistryBaseUrl { get; init; }
+
     [JsonPropertyName("identifier")]
     public required string Identifier { get; init; }
 
     [JsonPropertyName("version")]
     public string? Version { get; init; }
 
+    [JsonPropertyName("runtimeHint")]
+    public string? RuntimeHint { get; init; }
+
     [JsonPropertyName("transport")]
     public required Transport Transport { get; init; }
+
+    [JsonPropertyName("environmentVariables")]
+    public List<KeyValueInput>? EnvironmentVariables { get; init; }
+}
+
+public sealed class KeyValueInput
+{
+    [JsonPropertyName("name")]
+    public required string Name { get; init; }
+
+    [JsonPropertyName("description")]
+    public string? Description { get; init; }
+
+    [JsonPropertyName("isRequired")]
+    public bool? IsRequired { get; init; }
+
+    [JsonPropertyName("isSecret")]
+    public bool? IsSecret { get; init; }
 }
 
 public sealed class ResponseMeta

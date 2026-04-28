@@ -1,7 +1,0 @@
-C:\FabianWorkSpaceGitDEV\mcp-registry-service\test-publish\McpRegistryService.exe
-C:\FabianWorkSpaceGitDEV\mcp-registry-service\test-publish\appsettings.json
-C:\FabianWorkSpaceGitDEV\mcp-registry-service\test-publish\Data\servers.json
-C:\FabianWorkSpaceGitDEV\mcp-registry-service\test-publish\McpRegistryService.dll
-C:\FabianWorkSpaceGitDEV\mcp-registry-service\test-publish\McpRegistryService.deps.json
-C:\FabianWorkSpaceGitDEV\mcp-registry-service\test-publish\McpRegistryService.runtimeconfig.json
-C:\FabianWorkSpaceGitDEV\mcp-registry-service\test-publish\McpRegistryService.pdb
