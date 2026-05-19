@@ -139,6 +139,7 @@ app.MapGet(
 app.MapMethods("/v0.1/servers", new[] { "OPTIONS" }, () => Results.Ok());
 app.MapMethods("/v0.1/servers/{*path}", new[] { "OPTIONS" }, () => Results.Ok());
 
+app.MapGet("/", () => Results.Ok(new { name = "mcp-registry-service", version = "0.1.0" }));
 app.MapGet("/v0.1/ping", () => Results.Ok(new { pong = true }));
 app.MapGet("/v0.1/health", () => Results.Ok(new { status = "ok" }));
 
