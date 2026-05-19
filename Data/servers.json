@@ -6,6 +6,12 @@
       "title": "Koppla Active Directory",
       "description": "MCP server for querying Active Directory.",
       "version": "0.0.1"
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "isLatest": true
+      }
     }
   },
   {
@@ -15,6 +21,12 @@
       "title": "Kendo React MCP Server",
       "description": "MCP server for Kendo UI for React tools.",
       "version": "1.7.0"
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "isLatest": true
+      }
     }
   },
   {
@@ -24,6 +36,12 @@
       "title": "Context7",
       "description": "MCP server for Context7 documentation lookup.",
       "version": "1.0.31"
+    },
+    "_meta": {
+      "io.modelcontextprotocol.registry/official": {
+        "status": "active",
+        "isLatest": true
+      }
     }
   }
 ]
