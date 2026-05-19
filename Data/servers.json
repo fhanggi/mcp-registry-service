@@ -1,7 +1,7 @@
 [
   {
     "server": {
-      "id": "koppla-active-directory",
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "koppla-active-directory",
       "title": "Koppla Active Directory",
       "description": "MCP server for querying Active Directory.",
@@ -16,7 +16,7 @@
   },
   {
     "server": {
-      "id": "kendo-react-assistant",
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "kendo-react-assistant",
       "title": "Kendo React MCP Server",
       "description": "MCP server for Kendo UI for React tools.",
@@ -31,7 +31,7 @@
   },
   {
     "server": {
-      "id": "context7",
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
       "name": "context7",
       "title": "Context7",
       "description": "MCP server for Context7 documentation lookup.",
