@@ -5,7 +5,17 @@
       "name": "koppla-active-directory",
       "title": "Koppla Active Directory",
       "description": "MCP server for querying Active Directory.",
-      "version": "0.0.1"
+      "version": "0.0.1",
+      "packages": [
+        {
+          "registryType": "pip",
+          "identifier": "koppla",
+          "version": "0.0.1",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
     },
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
@@ -20,7 +30,17 @@
       "name": "kendo-react-assistant",
       "title": "Kendo React MCP Server",
       "description": "MCP server for Kendo UI for React tools.",
-      "version": "1.7.0"
+      "version": "1.7.0",
+      "packages": [
+        {
+          "registryType": "npm",
+          "identifier": "@progress/kendo-react-mcp",
+          "version": "1.7.0",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ]
     },
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
@@ -35,7 +55,13 @@
       "name": "context7",
       "title": "Context7",
       "description": "MCP server for Context7 documentation lookup.",
-      "version": "1.0.31"
+      "version": "1.0.31",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.context7.com/mcp"
+        }
+      ]
     },
     "_meta": {
       "io.modelcontextprotocol.registry/official": {
